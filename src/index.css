@@ -112,3 +112,51 @@
   text-align: center;
   
 }
+.Card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  
+}
+
+/* ------------------------Contact CSS----------------------------- */
+/* ContactInfo.css */
+
+.contact-info {
+  
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Icons */
+svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Add more custom styles here if needed */

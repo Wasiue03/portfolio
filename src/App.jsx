@@ -6,6 +6,7 @@ import Contact from './Contact';
 import { Route, Routes, redirect } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Navbar from "./Navbar";
+import Portfolio from "./Portfolio";
 
 const App = () => {
   return (
@@ -16,6 +17,8 @@ const App = () => {
         <Route exact path="/about" Component={About}/>
         <Route exact path="/service" Component={Service}/>
         <Route exact path="/contact" Component={Contact}/>
+        <Route exact path="/portfolio" Component={Portfolio}/>
+
       </Routes>
     </>
   );
