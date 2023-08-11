@@ -55,9 +55,9 @@ const Navbar = () => {
                         exact
                         
                         className="nav-link"
-                        to="/portfolio"
+                        to="/projects"
                       >
-                        Protfolio
+                        Projects
                       </NavLink>
                     </li>
 

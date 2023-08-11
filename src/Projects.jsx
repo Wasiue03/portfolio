@@ -4,7 +4,7 @@ import twee from '../src/images/tweets.png';
 import stat from '../src/images/stat.jpg';
 import Analysis from '../src/images/Analysis.png';
 
-const Portfolio = () => {
+const Projects = () => {
   return (
     <>
       <div className="header">
@@ -111,4 +111,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;

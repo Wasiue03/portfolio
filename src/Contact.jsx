@@ -8,19 +8,19 @@ const ContactInfo = () => {
     <div className="contact-info">
       <h2>Contact Information</h2>
       <p>
-        <FontAwesomeIcon icon={faEnvelope} /> Email: your-email@example.com
+        <FontAwesomeIcon icon={faEnvelope} /> Email:  <a href="">abdulwasiueunk@gmail.com</a>
       </p>
       <p>
         <FontAwesomeIcon icon={faGithub} /> GitHub: <a href="https://github.com/Wasiue03" target="_blank" rel="noopener noreferrer">github.com</a>
       </p>
       <p>
-        <FontAwesomeIcon icon={faLinkedin} /> LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer">linkedin.com/in/your-linkedin-username</a>
+        <FontAwesomeIcon icon={faLinkedin} /> LinkedIn: <a href="https://www.linkedin.com/in/abdul-wasiue/" target="_blank" rel="noopener noreferrer">linkedin.com</a>
       </p>
       <p>
-        <FontAwesomeIcon icon={faFacebook} /> Facebook: <a href="https://www.facebook.com/your-facebook-username" target="_blank" rel="noopener noreferrer">facebook.com/your-facebook-username</a>
+        <FontAwesomeIcon icon={faFacebook} /> Facebook: <a href="https://www.facebook.com/robert.channar" target="_blank" rel="noopener noreferrer">facebook.com</a>
       </p>
       <p>
-        <FontAwesomeIcon icon={faInstagram} /> Instagram: <a href="https://www.instagram.com/your-instagram-username" target="_blank" rel="noopener noreferrer">instagram.com/your-instagram-username</a>
+        <FontAwesomeIcon icon={faInstagram} /> Instagram: <a href="https://www.instagram.com/wasiue_/" target="_blank" rel="noopener noreferrer">instagram.com</a>
       </p>
     </div>
   );

@@ -19,9 +19,7 @@ const Card = () => {
               Extract Information from data by applying various techniques
               of Data Extraction and plots using python 
             </p>
-            <NavLink to="#" class="btn btn-primary">
-              Go somewhere
-            </NavLink>
+            
           </div>
         </div>
       </div>
@@ -34,9 +32,7 @@ const Card = () => {
               Create Machine Learning and Deep learning Models with excellent 
               accuracy and prediction
             </p>
-            <NavLink to="#" class="btn btn-primary">
-              Go somewhere
-            </NavLink>
+            
           </div>
         </div>
       </div>
@@ -49,9 +45,7 @@ const Card = () => {
               Natural Language Processing techniques to perfom multiple tasks 
               like sentiment analysis, tokeniazation, part-of-speech tagging and Stop word Removal
             </p>
-            <NavLink to="#" class="btn btn-primary">
-              Go somewhere
-            </NavLink>
+            
           </div>
         </div>
       </div>
@@ -63,9 +57,7 @@ const Card = () => {
             <p class="card-text">
               Implementing and Deploy Machine Learning Models with Docker.  
             </p>
-            <NavLink to="#" class="btn btn-primary">
-              Go somewhere
-            </NavLink>
+            
           </div>
         </div>
       </div>
@@ -78,9 +70,7 @@ const Card = () => {
               Create User Interface with flutter and flask integration with backend 
               machine learning models 
             </p>
-            <NavLink to="#" class="btn btn-primary">
-              Go somewhere
-            </NavLink>
+            
           </div>
         </div>
       </div>
@@ -93,9 +83,7 @@ const Card = () => {
               Impelement Frontend with React and Backend with ML models using Flask python
               Framework
             </p>
-            <NavLink to="#" class="btn btn-primary">
-              Go somewhere
-            </NavLink>
+            
           </div>
         </div>
       </div>
