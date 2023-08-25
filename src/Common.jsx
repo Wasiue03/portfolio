@@ -1,5 +1,4 @@
 import React from "react";
-import web from "../src/images/home.svg"
 import { NavLink } from "react-router-dom";
 
 const Common = (props) => {
@@ -13,7 +12,7 @@ const Common = (props) => {
                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>
                     {props.name}
-                    <strong className="brand-name"> <br />Abdul Wasiue</strong>
+                    <strong className="brand-name"> <br />Data Solar System </strong>
                   </h1>
                   <h2 className="my-3">
                     We are the team of talented scientists
