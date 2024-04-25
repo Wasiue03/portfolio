@@ -55,7 +55,7 @@ const Card = () => {
           <div class="card-body">
             <h5 class="card-title">Deployement</h5>
             <p class="card-text">
-              Implementing and Deploy Machine Learning Models with Docker.  
+              Implementing and Deploy Machine Learning Models with Docker, AWS and K8's.  
             </p>
             
           </div>
@@ -65,7 +65,7 @@ const Card = () => {
         <div className="card">
           <img src={flutter} class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Flutter</h5>
+            <h5 class="card-title">Software Development</h5>
             <p class="card-text">
               Create User Interface with flutter and flask integration with backend 
               machine learning models 
@@ -78,9 +78,9 @@ const Card = () => {
         <div className="card">
           <img src={web} class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Web Development</h5>
+            <h5 class="card-title">Forecasting & Optimization</h5>
             <p class="card-text">
-              Impelement Frontend with React and Backend with ML models using Flask python
+              Impelement optimization techniques and code reliablity with 10x to incease efficiency 
               Framework
             </p>
             
