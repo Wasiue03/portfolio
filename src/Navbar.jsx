@@ -36,6 +36,7 @@ const Navbar = () => {
                         className="nav-link active"
                         aria-current="page"
                         to="/"
+                        style={{ color: "#fff" }}
                       >
                         Home
                       </NavLink>
@@ -46,6 +47,7 @@ const Navbar = () => {
                         
                         className="nav-link"
                         to="/about"
+                        style={{ color: "#fff" }}
                       >
                         About
                       </NavLink>
@@ -56,6 +58,7 @@ const Navbar = () => {
                         
                         className="nav-link"
                         to="/projects"
+                        style={{ color: "#fff" }}
                       >
                         Projects
                       </NavLink>
@@ -67,6 +70,7 @@ const Navbar = () => {
                         exact
                         className="nav-link"
                         to="/service"
+                        style={{ color: "#fff" }}
                       >
                         Serives
                       </NavLink>
@@ -77,6 +81,7 @@ const Navbar = () => {
                         exact
                         className="nav-link"
                         to="/contact"
+                        style={{ color: "#fff" }}
                       >
                         Contact
                       </NavLink>

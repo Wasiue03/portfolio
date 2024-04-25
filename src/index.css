@@ -1,30 +1,44 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: muli;
 }
-.navbar{
-  background-color: #fff !important;
+
+/* Set background color to black and text color to white */
+body {
+  background-color: #000;
+  
 }
-.navbar a{
-  font-size: 1.3rem;
-  text-transform: capitalize;
+.img{
+  border-radius: 50%;
 }
 
-.menu_active{
+.navbar {
+  background-color: #000 !important;
+}
+
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: #fff; /* Change link color to white */
+}
+
+.menu_active {
   font-weight: bold;
   border-bottom: 1px solid #565387;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-size: 1.9rem !important;
   color: #565387 !important;
 }
 
-.navbar a:hover{
+.navbar a:hover {
   color: green !important;
 }
-#header .btn-get-started{
+
+#header .btn-get-started {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -37,94 +51,99 @@
   text-decoration: none;
 }
 
-#header .btn-get-started:hover{
+#header .btn-get-started:hover {
   background: #3498db;
   color: #fff;
 }
-.header-img{
+
+.header-img {
   text-align: right;
 }
-#header .animated{
+
+#header .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-@-webkit-keyframes up-down{
-  0% {
-    transform: translateY(10px);
-  }
-  100%{
-    transform: translateY(-10px);
-  }
-}
-@keyframes up-down{
-  0% {
-    transform: translateY(10px);
-  }
-  100%{
-    transform: translateY(-10px);
-  }
-}
 
-#header{
+.about-image {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  border-radius: 50%; /* Make the image circular */
+  margin-right: 20px; /* Add right margin for spacing */
+ 
+  
+}
+#trans img{
+  width: 210%;
+  height: 100%;
+}
+#header {
   width: 100%;
   height: 80vh;
   margin-top: 70px;
 }
-#header h1{
+
+#header h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
-  color: black;
+  color: #fff; /* Change header text color to white */
 }
-#header .brand-name{
+
+#header .brand-name {
   color: #3498db;
 }
-#header h2{
+
+#header h2 {
   color: #484848;
   font-size: 24px;
 }
-@media (max-width: 991px){
-  .menu_active{
+
+@media (max-width: 991px) {
+  .menu_active {
     font-weight: bold;
     border-bottom: none;
   }
-  .navbar-brand{
+  .navbar-brand {
     font-size: 1.5rem !important;
   }
-  #header h1{
+  #header h1 {
     padding-left: 35px;
     align-items: center;
   }
 }
 
-.card-img-top{
+.card-img-top {
   height: 100px;
   width: 100px;
   margin-left: 150px;
+  /* Set grayscale to 100% for black and white effect */
+  filter: grayscale(100%);
 }
-.card-body{
+
+.card-body {
   text-align: center;
 }
-.tab-center{
+
+.tab-center {
   text-align: center;
 }
-.explain{
+
+.explain {
   text-align: center;
-  
 }
-.Card{
+
+.Card {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 80px;
-  
 }
 
 /* ------------------------Contact CSS----------------------------- */
 /* ContactInfo.css */
 
 .contact-info {
-  
   max-width: 500px;
   margin: 40px auto;
   padding: 20px;

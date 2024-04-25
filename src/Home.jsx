@@ -7,7 +7,7 @@ import dp from '../src/images/ProfileMe.png'
 const HomePage = () => {
   return (
     <>
-          <Common name="Dedication > Passion > Obsession " imgsrc={dp} visit="/service" btnname="Get Started"/>
+          <Common name="Hello. I'm Abdul Wasiue " imgsrc={dp} visit="/service" btnname="Contact Me"/>
 
 
 
