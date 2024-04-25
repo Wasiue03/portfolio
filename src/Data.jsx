@@ -3,7 +3,7 @@
 const data = [
     {
         imgsrc: web,
-        title: "Web Development",
+        title: "Machine Learning",
     },
     {
         imgsrc: NLP,

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import dp from "../src/images/ProfileMe.png"
+import dp from "../src/images/profile-pic.png"
 const About = () => {
   return (
     <section id="about" className="about-section">
