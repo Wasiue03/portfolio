@@ -65,10 +65,9 @@ const Card = () => {
         <div className="card">
           <img src={flutter} class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Software Development</h5>
+            <h5 class="card-title">Data Visualization</h5>
             <p class="card-text">
-              Create User Interface with flutter and flask integration with backend 
-              machine learning models 
+              Create interactive and business related dashboards With Tableau and Power BI  
             </p>
             
           </div>
