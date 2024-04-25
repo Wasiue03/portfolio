@@ -72,7 +72,7 @@ const Navbar = () => {
                         to="/service"
                         style={{ color: "#fff" }}
                       >
-                        Serives
+                        Skills
                       </NavLink>
                     </li>
                     <li className="nav-item">
