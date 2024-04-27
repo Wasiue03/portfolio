@@ -1,9 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import dp from "../src/images/profile-pic.png"
+import ToggleBar from "./toggleBar";
+import CustomNavbar from "./toggleBar";
 const About = () => {
   return (
     <section id="about" className="about-section">
+      <CustomNavbar/>
       <div className="container">
         <div className="row">
           <div className="col-md-8 offset-md-2 text-left">

@@ -6,9 +6,11 @@ import Analysis from '../src/images/Analysis.png';
 import g from '../src/images/LT.webp';
 import s from '../src/images/summary.png';
 import v from '../src/images/vizsPNG.PNG';
+import CustomNavbar from "./toggleBar";
 const Projects = () => {
   return (
     <>
+    <CustomNavbar/>
       <div className="header">
         <h2 style={{ color: "#fff" }}>Projects</h2>
       </div>

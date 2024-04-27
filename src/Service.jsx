@@ -1,9 +1,11 @@
 import React from "react";
 
 import Card from "./Card";
+import CustomNavbar from "./toggleBar";
 const Service = () => {
   return (
     <>
+    <CustomNavbar/>
       <div className="my-5">
         <h1 className="tab-center" style={{color: "#fff"}}>Areas Of Expertise</h1>
         <h6 className="explain" style={{color: "#fff"}}>

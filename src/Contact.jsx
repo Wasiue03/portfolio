@@ -2,10 +2,12 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'; // Envelope icon from solid icons
 import { faGithub, faLinkedin, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'; // Social media icons from brands icons
+import CustomNavbar from './toggleBar';
 
 const ContactInfo = () => {
   return (
     <div className="contact-info">
+      <CustomNavbar/>
       <h2>Contact Information</h2>
       <p>
         <FontAwesomeIcon icon={faEnvelope} /> Email:  <a href="">abdulwasiueunk@gmail.com</a>
