@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <>
     <CustomNavbar/>
-          <Common name="Hello. I'm Abdul Wasiue " imgsrc={web} visit="/service" btnname="Contact Me"/>
+          <Common name="Hello. I'm Abdul Wasiue " imgsrc={web} visit="/contact" btnname="Contact Me"/>
 
 
 

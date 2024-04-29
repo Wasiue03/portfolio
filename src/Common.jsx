@@ -16,8 +16,8 @@ const Common = (props) => {
                     <strong className="brand-name" style={{fontSize: "20px"}}> <br />Data Science & Software Development </strong>
                   </h1>
                   <h2 className="my-3" style={{color: "#fff", justifyContent:'flex-start'}}>
-                    Wasiue is <strong>Data Scientist</strong> with more than 3 years expeirence of Software Development, Machine Learning Engineering and architecture.
-                    He belive's that "Cleaned Data is better than huge data"
+                    Wasiue is <strong>Data Scientist</strong> with more than 3 years expeirence of Software Development, Machine Learning Engineering and Data Science.
+                    
                   </h2>
                   <div className="mt-3">
                     <NavLink to={props.visit} className="btn-get-started">
