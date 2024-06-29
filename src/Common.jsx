@@ -16,7 +16,7 @@ const Common = (props) => {
                     <strong className="brand-name" style={{fontSize: "20px"}}> <br />Data Science - ML Engineering </strong>
                   </h1>
                   <h2 className="my-3" style={{color: "#fff", justifyContent:'flex-start'}}>
-                    Wasiue is <strong>Data Scientist</strong> with more than 2 years expeirence of Software Development, Model Development and Model Deployemnt.
+                    Wasiue is <strong>Data Scientist</strong> with Strong foundations in Data Pipelines, MLops, Model Development and Model Deployemnt.
                     
                   </h2>
                   <div className="mt-3">
