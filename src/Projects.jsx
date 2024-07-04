@@ -28,7 +28,7 @@ const Projects = () => {
                 based on similarities to user tastes. It employs techniques like collaborative filtering, content-based filtering, and hybrid approaches 
                 </p>
                 <p class="card-text">
-                  <small class="text-muted">Last updated 2 months ago</small>
+                  <small class="text-muted">React JS - Scikit-learn - Cosine Similarity - Word Embeddings </small>
                 </p>
               </div>
               <a href="https://colab.research.google.com/drive/1IyFC-ki7e0JgWJ6HRHNojZl_othHtT__?usp=sharing" class="btn btn-danger" target="_blank" rel="noopener noreferrer">
@@ -57,11 +57,11 @@ const Projects = () => {
                   neural networks or transformer models. It helps bridge language barriers and facilitates cross-linguistic communication.
                 </p>
                 <p class="card-text">
-                  <small class="text-muted">Last updated 2 months ago</small>
+                  <small class="text-muted">Flutter - Firebase - Provider - Flask - Transformers - Statical Modeling </small>
                 </p>
               </div>
-              <a href="https://colab.research.google.com/drive/1y-hHIZddGRBzw5hBaEB1SSvFEYMj5EII?usp=sharing"class="btn btn-danger" target="_blank" rel="noopener noreferrer" style={{marginLeft: "30%"}}>
-          Open Google Colab Notebook
+              <a href="https://github.com/Wasiue03/linguotech"class="btn btn-danger" target="_blank" rel="noopener noreferrer" style={{marginLeft: "30%"}}>
+          Open Github Repo
         </a>
               
             </div>
@@ -84,7 +84,7 @@ const Projects = () => {
 Additionally, mBERT can be utilized for website summarization through web scraping. This involves extracting content from web pages in English, Urdu, or multiple languages, and then employing mBERT to generate brief summaries of the extracted text. By harnessing mBERT's multilingual capabilities, website content can be summarized effectively, aiding users in quickly grasping the essence of the information presented on websites across various languages.
                 </p>
                 <p class="card-text">
-                  <small class="text-muted">Last updated 1 months ago</small>
+                  <small class="text-muted">Flutter - Dart - Google API - Flask - Firebase </small>
                 </p>
               </div>
               <a href="https://github.com/Wasiue03/linguotech"class="btn btn-danger" target="_blank" rel="noopener noreferrer" style={{marginLeft: "20%"}}>
