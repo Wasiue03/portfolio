@@ -69,7 +69,7 @@ const Navbar = () => {
                        
                         exact
                         className="nav-link"
-                        to="/service"
+                        to="/skills"
                         style={{ color: "#fff" }}
                       >
                         Skills

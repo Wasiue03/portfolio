@@ -2,7 +2,7 @@ import React from "react";
 
 import Card from "./Card";
 import CustomNavbar from "./toggleBar";
-const Service = () => {
+const Skills = () => {
   return (
     <>
     <CustomNavbar/>
@@ -29,4 +29,4 @@ const Service = () => {
     </>
   );
 };
-export default Service;
+export default Skills;
