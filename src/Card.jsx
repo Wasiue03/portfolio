@@ -10,81 +10,49 @@ import { NavLink } from "react-router-dom";
 const Card = () => {
   return (
     <>
-      <div className="col-md-4 col-10 ">
-        <div className="card">
-          <img src={DS} class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Data Analysis</h5>
-            <p class="card-text">
-              Extract Information from data by applying various techniques
-              of Data Extraction and plots using python 
-            </p>
-            
+      <div className="row">
+        {[
+          {
+            img: DS,
+            title: "Data Analysis",
+            text: "Extract Information from data by applying various techniques of Data Extraction and plots using Python.",
+          },
+          {
+            img: ML,
+            title: "Machine Learning",
+            text: "Create Machine Learning and Deep Learning Models with excellent accuracy and prediction.",
+          },
+          {
+            img: NLP,
+            title: "NLP",
+            text: "Natural Language Processing techniques to perform tasks like sentiment analysis, tokenization, part-of-speech tagging, and stop word removal.",
+          },
+          {
+            img: deploy,
+            title: "Deployment",
+            text: "Implement and deploy Machine Learning models with Docker, AWS, and Kubernetes.",
+          },
+          {
+            img: flutter,
+            title: "Data Visualization",
+            text: "Create interactive and business-related dashboards with Tableau and Power BI.",
+          },
+          {
+            img: web,
+            title: "Forecasting & Optimization",
+            text: "Implement optimization techniques and code reliability to increase efficiency using robust frameworks.",
+          },
+        ].map((card, index) => (
+          <div className="col-md-4 col-12 mb-4" key={index}>
+            <div className="card h-100 shadow-sm border-0">
+              <img src={card.img} className="card-img-top" alt={card.title} />
+              <div className="card-body bg-dark text-light">
+                <h5 className="card-title text-center">{card.title}</h5>
+                <p className="card-text">{card.text}</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div className="col-md-4 col-10 mx-auto">
-        <div className="card">
-          <img src={ML} class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Machine Learning</h5>
-            <p class="card-text">
-              Create Machine Learning and Deep learning Models with excellent 
-              accuracy and prediction
-            </p>
-            
-          </div>
-        </div>
-      </div>
-      <div className="col-md-4 col-10 mx-auto">
-        <div className="card">
-          <img src={NLP} class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">NLP</h5>
-            <p class="card-text">
-              Natural Language Processing techniques to perfom multiple tasks 
-              like sentiment analysis, tokeniazation, part-of-speech tagging and Stop word Removal
-            </p>
-            
-          </div>
-        </div>
-      </div>
-      <div className="col-md-4 col-10 mx-auto">
-        <div className="card">
-          <img src={deploy} class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Deployement</h5>
-            <p class="card-text">
-              Implementing and Deploy Machine Learning Models with Docker, AWS and K8's.  
-            </p>
-            
-          </div>
-        </div>
-      </div>
-      <div className="col-md-4 col-10 mx-auto">
-        <div className="card">
-          <img src={flutter} class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Data Visualization </h5>
-            <p class="card-text">
-              Create interactive and business related dashboards With Tableau and Power BI  
-            </p>
-            
-          </div>
-        </div>
-      </div>
-      <div className="col-md-4 col-10 mx-auto">
-        <div className="card">
-          <img src={web} class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Forecasting & Optimization</h5>
-            <p class="card-text">
-              Impelement optimization techniques and code reliablity with 10x to incease efficiency 
-              Framework
-            </p>
-            
-          </div>
-        </div>
+        ))}
       </div>
     </>
   );
