@@ -1,13 +1,13 @@
 import React from "react";
 import Home from "./Home";
-import About from './About';
 import Skills from './Skills';
 import Contact from './Contact';
 import { Route, Routes, redirect } from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Navbar from "./Navbar";
-import Portfolio from "./Projects";
+
 import Projects from "./Projects";
+import CaseStudies from "./About";
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
     <Navbar/>
       <Routes>
         <Route exact path="/" Component={Home}/>
-        <Route exact path="/about" Component={About}/>
+        <Route exact path="/casest" Component={CaseStudies}/>
         <Route exact path="/skills" Component={Skills}/>
         <Route exact path="/contact" Component={Contact}/>
         <Route exact path="/projects" Component={Projects}/>

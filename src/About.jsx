@@ -1,30 +1,78 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import dp from "../src/images/profile-pic.png"
-import ToggleBar from "./toggleBar";
 import CustomNavbar from "./toggleBar";
-const About = () => {
+import caseStudy1 from "../src/images/data scie.jpeg";
+import caseStudy2 from "../src/images/ML.png";
+import caseStudy3 from "../src/images/LLM.jpeg";
+
+const CaseStudies = () => {
   return (
-    <section id="about" className="about-section">
-      <CustomNavbar/>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-8 offset-md-2 text-left">
-          <div className="about-content">
-              <img src={dp} alt="My Image" className="about-image" />
-            <h2  style={{ color: "#fff" }}>Who am I?</h2>
-            <p style={{ color: "#fff" }}>
-              Hi, I'm Abdul Wasiue, a passionate Data Scientist and Software Developer based in Islamabad, Pakistan. With a background in Computer Science from Comsats University Islamabad and specialized training in Data Science, I have developed expertise in transforming data into actionable insights and crafting innovative software solutions.
-              My journey in the field of technology has led me to work on a variety of projects, ranging from developing predictive models and implementing machine learning algorithms to engineering high-performing mobile applications. I thrive in dynamic environments where I can leverage my skills in Python, SQL, Tableau, and other tools to drive innovation and achieve tangible business outcomes.
-              Whether it's analyzing large-scale datasets to optimize processes or building intuitive mobile applications, I am committed to delivering impactful results and contributing to the advancement of technology. Feel free to explore my portfolio to learn more about my work and accomplishments.
-            </p>
-            <NavLink to="https://www.linkedin.com/in/abdul-wasiue/" className="btn btn-primary">About Me</NavLink>
+    <>
+      <CustomNavbar />
+      <section id="case-studies" className="case-studies-section">
+        <div className="container">
+          <h2 className="text-center mb-5" style={{ color: "#fff" }}>
+            Case Studies
+          </h2>
+          <div className="row">
+            {/* Case Study 1 - Data Science */}
+            <div className="col-md-4">
+              <div className="case-study-card">
+                <img
+                  src={caseStudy1}
+                  alt="Data Science Case Study"
+                  className="case-study-image"
+                />
+                <h3 style={{ color: "#00ff00" }}>Optimizing Sales with Data Science</h3>
+                <p style={{ color: "#fff" }}>
+                  Leveraged advanced data analytics to optimize sales performance, leading to a 15% increase in revenue. This case study highlights the process of data wrangling, feature engineering, and predictive modeling.
+                </p>
+                <NavLink to="/case-study-1" className="btn btn-primary">
+                  Read More
+                </NavLink>
+              </div>
+            </div>
+
+            {/* Case Study 2 - Machine Learning */}
+            <div className="col-md-4">
+              <div className="case-study-card">
+                <img
+                  src={caseStudy2}
+                  alt="Machine Learning Case Study"
+                  className="case-study-image"
+                />
+                <h3 style={{ color: "#00ff00" }}>Predictive Maintenance using ML</h3>
+                <p style={{ color: "#fff" }}>
+                  Developed a machine learning model to predict equipment failure, reducing downtime by 20%. This case study covers data preprocessing, model selection, and deployment in a production environment.
+                </p>
+                <NavLink to="/case-study-2" className="btn btn-primary">
+                  Read More
+                </NavLink>
+              </div>
+            </div>
+
+            {/* Case Study 3 - Large Language Models (LLMs) */}
+            <div className="col-md-4">
+              <div className="case-study-card">
+                <img
+                  src={caseStudy3}
+                  alt="LLM Case Study"
+                  className="case-study-image"
+                />
+                <h3 style={{ color: "#00ff00" }}>Natural Language Processing with LLMs</h3>
+                <p style={{ color: "#fff" }}>
+                  Implemented a large language model to automate customer support, improving response accuracy and efficiency. This case study explores fine-tuning LLMs, deployment, and real-world impact.
+                </p>
+                <NavLink to="/case-study-3" className="btn btn-primary">
+                  Read More
+                </NavLink>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
-export default About;
+export default CaseStudies;

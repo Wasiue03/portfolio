@@ -46,10 +46,10 @@ const Navbar = () => {
                         exact
                         
                         className="nav-link"
-                        to="/about"
+                        to="/casest"
                         style={{ color: "#fff" }}
                       >
-                        About
+                        Case Studies
                       </NavLink>
                     </li>
                     <li className="nav-item">
