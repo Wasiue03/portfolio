@@ -40,6 +40,9 @@ const CustomNavbar = () => {
             <NavLink className="nav-link" to="/contact">
               Contact
             </NavLink>
+            <NavLink className="nav-link" to="/work">
+              Work Exposure
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

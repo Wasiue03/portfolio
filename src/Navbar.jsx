@@ -75,6 +75,15 @@ const Navbar = () => {
                         Contact
                       </NavLink>
                     </li>
+                    <li className="nav-item">
+                      <NavLink
+                        className="nav-link"
+                        to="/work"
+                        style={{ color: "#fff" }}
+                      >
+                        Work Exposure
+                      </NavLink>
+                    </li>
                   </ul>
                 </div>
               </div>
