@@ -28,14 +28,14 @@ const CustomNavbar = () => {
             <NavLink className="nav-link" to="/">
               Home
             </NavLink>
-            <NavLink className="nav-link" to="/about">
-              About
+            <NavLink className="nav-link" to="/casest">
+              CaseStudies
             </NavLink>
             <NavLink className="nav-link" to="/projects">
               Projects
             </NavLink>
-            <NavLink className="nav-link" to="/service">
-              Service
+            <NavLink className="nav-link" to="/skills">
+              Skills
             </NavLink>
             <NavLink className="nav-link" to="/contact">
               Contact

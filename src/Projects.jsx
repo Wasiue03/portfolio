@@ -14,6 +14,8 @@ const Projects = () => {
       <div className="header">
         <h2 style={{ color: "#fff" }}>Projects</h2>
       </div>
+
+      
       <div className="Card">
         <div class="card mb-3">
           <div class="row no-gutters">

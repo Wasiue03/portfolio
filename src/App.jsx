@@ -7,7 +7,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Navbar from "./Navbar";
 
 import Projects from "./Projects";
-import CaseStudies from "./About";
+import CaseStudies from "./CaseStudies";
 
 const App = () => {
   return (

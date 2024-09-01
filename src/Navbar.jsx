@@ -28,12 +28,10 @@ const Navbar = () => {
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"
                 >
-                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+                  <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li className="nav-item">
                       <NavLink
-          
-                        exact
-                        className="nav-link active"
+                        className="nav-link"
                         aria-current="page"
                         to="/"
                         style={{ color: "#fff" }}
@@ -43,8 +41,6 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                       <NavLink
-                        exact
-                        
                         className="nav-link"
                         to="/casest"
                         style={{ color: "#fff" }}
@@ -54,8 +50,6 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                       <NavLink
-                        exact
-                        
                         className="nav-link"
                         to="/projects"
                         style={{ color: "#fff" }}
@@ -63,11 +57,8 @@ const Navbar = () => {
                         Projects
                       </NavLink>
                     </li>
-
                     <li className="nav-item">
                       <NavLink
-                       
-                        exact
                         className="nav-link"
                         to="/skills"
                         style={{ color: "#fff" }}
@@ -77,8 +68,6 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                       <NavLink
-                       
-                        exact
                         className="nav-link"
                         to="/contact"
                         style={{ color: "#fff" }}

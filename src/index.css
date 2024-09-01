@@ -305,4 +305,54 @@ svg {
   
 }
 
+.case-studies-section {
+  padding: 50px 0;
+  background-color: #222;
+}
+
+.case-study-card {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.case-study-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.case-study-card h3 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.case-study-card p {
+  flex-grow: 1;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.case-study-card .btn {
+  margin-top: 15px;
+  align-self: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.col-md-4 {
+  display: flex;
+  margin-bottom: 20px;
+}
+
 /* Additional media queries for smaller screen sizes can be added here */
