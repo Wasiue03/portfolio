@@ -9,7 +9,7 @@ const Skills = () => {
       <div className="my-5">
         <h1 className="tab-center" style={{color: "#fff"}}>Areas Of Expertise</h1>
         <h6 className="explain" style={{color: "#fff"}}>
-          As Data Analyst and Data Scientist, I translate data into valueable
+          As Data Scientist, I translate data into valueable
         and comprehensible insights. <br /> My goal is to improve results,
         make the right decisons and save costs. <br />
         I have hands on training in machine learning, supervised and unsupervised algorithms and use <br />
