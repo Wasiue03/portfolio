@@ -5,17 +5,96 @@ import stat from '../src/images/stat.jpg';
 import Analysis from '../src/images/Analysis.png';
 import g from '../src/images/LT.webp';
 import s from '../src/images/summary.png';
-import v from '../src/images/vizsPNG.PNG';
+import v from '../src/images/streaming.jpg';
+import u from '../src/images/pipeline.jpg';
+import w from '../src/images/package.png';
 import CustomNavbar from "./toggleBar";
 const Projects = () => {
   return (
     <>
-    <CustomNavbar/>
+      <CustomNavbar/>
       <div className="header">
         <h2 style={{ color: "#fff" }}>Projects</h2>
       </div>
 
+        {/* New Project: Apache Kafka Realtime Streaming */}
+        <div className="Card">
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src={w} class="card-img" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title" style={{color: "red"}}>Python Package For Time Series </h5>
+                <p class="card-text">
+                I developed and published a Python package for time series forecasting on PyPI, featuring support for ARIMA, SARIMA, and Exponential Smoothing models. The package is designed for ease of use, providing straightforward functionality for users to preprocess data, build forecasting models, and make predictions. It simplifies the time series forecasting process, allowing users to quickly implement and evaluate different models for their forecasting needs. By making the package available on PyPI, I ensured that it is easily accessible to the Python community for integration into various time series analysis projects.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Python - Setup - Twine - PyPI - Package</small>
+                </p>
+              </div>
+              <a href="https://pypi.org/project/forecastify/0.1/#files" class="btn btn-danger" target="_blank" rel="noopener noreferrer">
+                Go To Package
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       
+      {/* New Project: Apache Kafka Realtime Streaming */}
+      <div className="Card">
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src={v} class="card-img" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title" style={{color: "red"}}>Apache Kafka Realtime Streaming</h5>
+                <p class="card-text">
+                In this real-time data streaming project, I utilized Apache Kafka to process and analyze live streaming data for various use cases such as user engagement monitoring and web traffic analysis. By ingesting continuous streams of data, the system was designed to process high-velocity events and monitor key performance metrics in real-time. Additionally, I integrated Prometheus to capture and store metrics, which were then visualized on Grafana dashboards. This setup enabled the creation of real-time alerts based on the data streams, providing proactive monitoring and rapid issue detection for system health and performance.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Apache Kafka - Redis - Python - Promethues Grafana</small>
+                </p>
+              </div>
+              <a href="https://github.com/Wasiue03/Monitoring-Pipeline" class="btn btn-danger" target="_blank" rel="noopener noreferrer">
+                Open Github Repository
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      {/* New Project: Azure AKS ML Pipelines */}
+      <div className="Card">
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src={u} class="card-img" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title" style={{color: "red"}}>Azure AKS ML Pipelines</h5>
+                <p class="card-text">
+                A machine learning pipeline project deployed on Azure Kubernetes Service (AKS), leveraging Azure ML for scalable model training, deployment, and orchestration. The project involved end-to-end machine learning lifecycle management, from data ingestion to model deployment, with a focus on real-time and batch processing.The project included the automation of deployment processes using CI/CD pipelines configured with Azure DevOps, allowing for continuous integration and deployment of models. Kubernetes Helm charts were used to deploy the machine learning models as scalable microservices on AKS. I ensured that the deployment of new model versions was automated using GitOps workflows, streamlining the entire deployment process.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Azure - Kubernetes - Docker - Python</small>
+                </p>
+              </div>
+              <a href="https://github.com/Wasiue03/aks-pipelines" class="btn btn-danger" target="_blank" rel="noopener noreferrer">
+                Open Github Repository
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="Card">
         <div class="card mb-3">
           <div class="row no-gutters">
@@ -26,17 +105,16 @@ const Projects = () => {
               <div class="card-body">
                 <h5 class="card-title" style={{color: "red"}}>Movie Recommendation System</h5>
                 <p class="card-text">
-                A movie recommendation system in machine learning utilizes algorithms to analyze user preferences and historical data, recommending relevant films 
-                based on similarities to user tastes. It employs techniques like collaborative filtering, content-based filtering, and hybrid approaches 
+                  A movie recommendation system in machine learning utilizes algorithms to analyze user preferences and historical data, recommending relevant films 
+                  based on similarities to user tastes. It employs techniques like collaborative filtering, content-based filtering, and hybrid approaches.
                 </p>
                 <p class="card-text">
                   <small class="text-muted">React JS - Scikit-learn - Cosine Similarity - Word Embeddings </small>
                 </p>
               </div>
               <a href="https://colab.research.google.com/drive/1IyFC-ki7e0JgWJ6HRHNojZl_othHtT__?usp=sharing" class="btn btn-danger" target="_blank" rel="noopener noreferrer">
-          Open Google Colab Notebook
-        </a>
-              
+                Open Google Colab Notebook
+              </a>
             </div>
           </div>
         </div>
@@ -49,23 +127,18 @@ const Projects = () => {
               <img src={g} class="card-img" alt="..." />
             </div>
             <div class="col-md-10">
-              <div class="card-body" style={{paddingLeft: "20%", }}>
+              <div class="card-body" style={{paddingLeft: "20%"}}>
                 <h5 class="card-title" style={{color: "red"}}>Language Translation using Encoder Decoder</h5>
-                <p class="card-text" >
-                A language translation model translates text from Urdu to English using an encoder-decoder sequence-to-sequence (seq2seq) architecture. 
-                The encoder processes the input Urdu text, creating a context vector. This vector captures the input's meaning, which the decoder uses to
-                 generate English translations one word at a time. Training involves minimizing discrepancies between predicted and actual translations using 
-                 aligned Urdu-English sentence pairs. The model's effectiveness hinges on its ability to capture context and semantics, facilitated by recurrent
-                  neural networks or transformer models. It helps bridge language barriers and facilitates cross-linguistic communication.
+                <p class="card-text">
+                  A language translation model translates text from Urdu to English using an encoder-decoder sequence-to-sequence (seq2seq) architecture. 
                 </p>
                 <p class="card-text">
-                  <small class="text-muted">Flutter - Firebase - Provider - Flask - Transformers - Statical Modeling </small>
+                  <small class="text-muted">Flutter - Firebase - Provider - Flask - Transformers - Statistical Modeling</small>
                 </p>
               </div>
-              <a href="https://github.com/Wasiue03/linguotech"class="btn btn-danger" target="_blank" rel="noopener noreferrer" style={{marginLeft: "30%"}}>
-          Open Github Repo
-        </a>
-              
+              <a href="https://github.com/Wasiue03/linguotech" class="btn btn-danger" target="_blank" rel="noopener noreferrer" style={{marginLeft: "30%"}}>
+                Open Github Repo
+              </a>
             </div>
           </div>
         </div>
@@ -79,27 +152,22 @@ const Projects = () => {
             </div>
             <div class="col-md-10">
               <div class="card-body" style={{paddingLeft: "20%"}}>
-                <h5 class="card-title" style={{color: "red"}}>Text Summarizaton Using MBert</h5>
-                <p class="card-text" >
-                Text summarization using mBERT, a multilingual language model, involves condensing large texts or documents into concise summaries while preserving key information. In English, this process entails leveraging mBERT's understanding of the language to generate summaries that capture the main points of the original text. Similarly, in Urdu, mBERT is used to analyze and summarize text in the same manner, facilitating efficient comprehension in the Urdu language.
-
-Additionally, mBERT can be utilized for website summarization through web scraping. This involves extracting content from web pages in English, Urdu, or multiple languages, and then employing mBERT to generate brief summaries of the extracted text. By harnessing mBERT's multilingual capabilities, website content can be summarized effectively, aiding users in quickly grasping the essence of the information presented on websites across various languages.
+                <h5 class="card-title" style={{color: "red"}}>Text Summarization Using MBert</h5>
+                <p class="card-text">
+                  Text summarization using mBERT, a multilingual language model, involves condensing large texts or documents into concise summaries while preserving key information.
                 </p>
                 <p class="card-text">
-                  <small class="text-muted">Flutter - Dart - Google API - Flask - Firebase </small>
+                  <small class="text-muted">Flutter - Dart - Google API - Flask - Firebase</small>
                 </p>
               </div>
-              <a href="https://github.com/Wasiue03/linguotech"class="btn btn-danger" target="_blank" rel="noopener noreferrer" style={{marginLeft: "20%"}}>
-          Open Github Repository
-        </a>
-              
+              <a href="https://github.com/Wasiue03/linguotech" class="btn btn-danger" target="_blank" rel="noopener noreferrer" style={{marginLeft: "20%"}}>
+                Open Github Repository
+              </a>
             </div>
           </div>
         </div>
       </div>
 
-
-      
       <div className="Card">
         <div class="card mb-3">
           <div class="row no-gutters">
@@ -108,17 +176,17 @@ Additionally, mBERT can be utilized for website summarization through web scrapi
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title"style={{color: "red"}}>Tableau Visualization Dashboards</h5>
+                <h5 class="card-title" style={{color: "red"}}>Tableau Visualization Dashboards</h5>
                 <p class="card-text">
-                Tableau dashboards offer insightful visualizations across varied datasets. Superstores dashboards track sales and inventory, aiding in performance analysis. Customer segmentation dashboards categorize customers for targeted strategies. Gaming dashboards analyze player behavior and performance metrics, optimizing gaming experiences. With Tableau's intuitive interface, users can explore data effortlessly and make informed decisions swiftly.
+                  Tableau dashboards offer insightful visualizations across varied datasets, including Superstores, customer segmentation, and gaming dashboards.
                 </p>
                 <p class="card-text">
                   <small class="text-muted">Last updated 5 months ago</small>
                 </p>
               </div>
               <a href="https://public.tableau.com/app/profile/abdul.wasiue/vizzes" class="btn btn-danger" target="_blank" rel="noopener noreferrer">
-          Open Tableau Profile
-        </a>
+                Open Tableau Profile
+              </a>
             </div>
           </div>
         </div>
@@ -132,22 +200,22 @@ Additionally, mBERT can be utilized for website summarization through web scrapi
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title"style={{color: "red"}}>Sentiment Analysis On Tweets</h5>
+                <h5 class="card-title" style={{color: "red"}}>Sentiment Analysis On Tweets</h5>
                 <p class="card-text">
-                In this sentiment analysis project using NLP, the goal is to create a machine learning model capable of accurately categorizing text into positive, negative, or neutral sentiments. The project involves data preprocessing, 
-                tokenization, feature extraction, and model training using techniques like Bag-of-Words, TF-IDF, or word embeddings. 
+                  This sentiment analysis project using NLP categorizes text into positive, negative, or neutral sentiments using machine learning.
                 </p>
                 <p class="card-text">
                   <small class="text-muted">Last updated 5 months ago</small>
                 </p>
               </div>
               <a href="https://colab.research.google.com/drive/1qRaj7AuviXQ8nHbMRMlRqteUpPourz75?usp=sharing" class="btn btn-danger" target="_blank" rel="noopener noreferrer">
-          Open Google Colab Notebook
-        </a>
+                Open Google Colab Notebook
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div className="Card">
         <div class="card mb-3">
           <div class="row no-gutters">
@@ -156,22 +224,23 @@ Additionally, mBERT can be utilized for website summarization through web scrapi
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h4 class="card-title"style={{color: "red"}}>Data Analysis</h4>
+                <h5 class="card-title" style={{color: "red"}}>Data Analysis</h5>
                 <h5>Data:  Supply Chain</h5>
                 <p class="card-text">
-                This data analysis project involves exploring and examining a dataset to extract meaningful insights and patterns. It includes tasks like data cleaning, visualization, statistical analysis, and hypothesis testing. The project showcases the ability to work with real-world data and draw valuable conclusions, making it a valuable skill in the field of data science
+                  This project involves data cleaning, visualization, statistical analysis, and hypothesis testing on supply chain data.
                 </p>
                 <p class="card-text">
                   <small class="text-muted">Last updated 2 months ago</small>
                 </p>
               </div>
               <a href="https://colab.research.google.com/drive/1qO77ttPZ46vmjbzoQvOp_lhT1SHn_zPV?usp=sharing" class="btn btn-danger" target="_blank" rel="noopener noreferrer">
-          Open Google Colab Notebook
-        </a>
+                Open Google Colab Notebook
+              </a>
             </div>
           </div>
         </div>
       </div>
+
       <div className="Card">
         <div class="card mb-3">
           <div class="row no-gutters">
@@ -180,22 +249,22 @@ Additionally, mBERT can be utilized for website summarization through web scrapi
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title"style={{color: "red"}}>Statistical Analysis</h5>
+                <h5 class="card-title" style={{color: "red"}}>Statistical Analysis</h5>
                 <p class="card-text">
-                In this statistical analysis project using Python, we aim to explore and analyze a dataset using libraries like Pandas, NumPy. Tasks include data cleaning, descriptive statistics,
-                  Seaborn. The project showcases the ability to apply statistical concepts and Python programming skills to gain insights from data, making it a valuable addition to any data analysis portfolio.
+                  This project focuses on statistical analysis using Python libraries like Pandas, NumPy, and Seaborn to gain insights from datasets.
                 </p>
                 <p class="card-text">
                   <small class="text-muted">Last updated 7 months ago</small>
                 </p>
               </div>
               <a href="https://colab.research.google.com/drive/1-Dd4Mu-IAJb4yrf9LPHRf37XCb4mWtO2?usp=sharing" class="btn btn-danger" target="_blank" rel="noopener noreferrer">
-          Open Google Colab Notebook
-        </a>
+                Open Google Colab Notebook
+              </a>
             </div>
           </div>
         </div>
       </div>
+
     </>
   );
 };
