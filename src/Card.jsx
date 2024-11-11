@@ -41,7 +41,7 @@ const Card = () => {
           },
           {
             img: docker,
-            title: "DevOps & Docker",
+            title: "MLOps",
             text: "Automate the deployment of ML models using Docker, ensuring efficient continuous integration and deployment.",
           },
           {
