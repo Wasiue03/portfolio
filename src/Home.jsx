@@ -10,6 +10,41 @@ const HomePage = () => {
     <>
       <CustomNavbar />
 
+      {/* LLM Chatbot Project Card - Add this with your other project cards */}
+<div className="Card">
+  <div class="card mb-3">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src={require('../src/images/llm-chatbot.jpg')} class="card-img" alt="LLM Chatbot" />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title" style={{color: "red"}}>Personal LLM Work Assistant</h5>
+          <p class="card-text">
+            A CPU-optimized personal assistant chatbot using DeepSeek-R1 1.3B LLM through Ollama. Features include:
+            - Streamlit web interface for natural conversations
+            - Text-to-speech functionality for interactive responses
+            - Optimized for low-resource machines (Intel i3/12GB RAM)
+            - Customizable response length and creativity controls
+            - Supports both code assistance and general work queries
+          </p>
+          <p class="card-text">
+            <small class="text-muted">Python - Ollama - Streamlit - Transformers - Pyttsx3</small>
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/Wasiue03/LLM-ChatBot" class="btn btn-danger mr-2" target="_blank" rel="noopener noreferrer">
+            GitHub Repo
+          </a>
+          <a href="https://pypi.org/project/your-chatbot-package" class="btn btn-outline-danger" target="_blank" rel="noopener noreferrer">
+            PyPI Package
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       {/* Top Section with Soft Gradient */}
       <section
         id="top-section"
