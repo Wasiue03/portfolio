@@ -89,7 +89,7 @@ const HomePage = () => {
           textAlign: "center"
         }}
       >
-        <p>&copy; 2024 Abdul Wasiue. All rights reserved.</p>
+        <p>&copy; 2025 Abdul Wasiue. All rights reserved.</p>
       </footer>
     </>
   );
